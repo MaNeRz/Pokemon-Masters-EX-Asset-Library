@@ -1,0 +1,41 @@
+{
+  "Repository": "Pokemon-Masters-EX-Asset-Library",
+  "ReleaseVersion": "v1.0.0",
+  "GameDataVersion": "2.71.1",
+  "CanonicalAssets": 8121,
+  "Aliases": 8663,
+  "Status": {
+    "CanonicalAssets": {
+      "READY": 8044,
+      "HOLD": 77
+    },
+    "Aliases": {
+      "READY": 6208,
+      "HOLD": 2455
+    }
+  },
+  "AssetRoots": [
+    "Items",
+    "UI"
+  ],
+  "Metadata": [
+    "data/assets.csv",
+    "data/aliases.csv",
+    "data/status-summary.csv"
+  ],
+  "SourceTypes": [
+    "STANDALONE_ITEM",
+    "ATLAS_SPRITE"
+  ],
+  "ProductContract": {
+    "ReadyHoldIsMetadataOnly": true,
+    "CanonicalAssetsAreSHA256Unique": true,
+    "AliasesAreNamespaced": true,
+    "ItemAndAtlasPublicPathsDoNotCollide": true,
+    "ItemAndAtlasCanonicalPayloadsDoNotShareSHA256": true
+  },
+  "Author": {
+    "GitHubLogin": "MaNeRz",
+    "GitHubDisplayName": "Mario"
+  }
+}
