@@ -1,6 +1,6 @@
 {
   "Repository": "Pokemon-Masters-EX-Asset-Library",
-  "ReleaseVersion": "v1.1.1",
+  "ReleaseVersion": "v1.1.2",
   "GameDataVersion": "2.71.1",
   "BaselineRelease": "v1.0.0",
   "CanonicalAssets": 27419,
@@ -68,5 +68,20 @@
       "UI/Banner/Scout"
     ],
     "PokemonFolderPolicy": "Exact already-published human Pokemon name."
+  },
+  "TrainerHumanNaming": {
+    "ReleaseVersion": "v1.1.2",
+    "CanonicalAssetPathsChanged": 4507,
+    "SourceIdentityFinalPathsChanged": 4772,
+    "PNGContentChanged": false,
+    "UnifiedAssetIdentityChanged": false,
+    "AliasTargetChanged": false,
+    "GitattributesChanged": false,
+    "EvidenceLineage": [
+      "R174-FIX3 public naming preview",
+      "R175 transaction plan",
+      "R178 successful recovery of interrupted R176",
+      "R179 simplified local apply/commit"
+    ]
   }
 }
