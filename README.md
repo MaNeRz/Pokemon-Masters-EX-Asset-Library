@@ -4,7 +4,7 @@ A human-readable asset library for **Pokémon Masters EX**.
 
 ## Current release
 
-- Library version: [`v1.1.1`](https://github.com/MaNeRz/Pokemon-Masters-EX-Asset-Library/releases/tag/v1.1.1)
+- Library version: `v1.1.2`
 - Game data version: `2.71.1`
 - Canonical PNG assets: **27,419**
 - Namespaced aliases: **13,144**
@@ -12,18 +12,22 @@ A human-readable asset library for **Pokémon Masters EX**.
 - Canonical HOLD assets: **153**
 - Standalone UI assets tracked with Git LFS: **19,298**
 
-### What changed in v1.1.1
+### What changed in v1.1.2
 
-`v1.1.1` is a navigation-only patch over `v1.1.0`.
+`v1.1.2` is a human-readable Trainer naming patch over `v1.1.1`.
 
-No PNG content, PNG SHA256, `UnifiedAssetId`, or alias target changed.
-High-cardinality UI directories were reorganized into semantic/source-derived
-subfolders so the repository remains fully browsable through GitHub's web UI.
+- **4,507** canonical Trainer public paths were renamed.
+- All **536** published Trainer variants now have a human-readable Trainer name.
+- **220** variants use exact local `trainer_verbose_name` evidence.
+- **9** additional specialized names use exact local CharaQuest evidence.
+- **307** variants retain their proven base Trainer name.
+- **1,844** standard Trainer emote assets now expose their proven BattleStamp labels:
+  `Nice!`, `Watch out!`, `Let's do this!`, and `Thanks!`.
+- Technical variant tails such as `01`, `02`, `expose`, and `01_expose` remain
+  preserved where their exact in-game semantic label is not proven.
 
-At the `v1.1.1` release boundary:
-
-- directories with more than 1,000 direct entries: **0**
-- directories in the 800–1,000 growth-risk band: **0**
+This patch changes **public navigation paths only**. PNG bytes, PNG SHA256,
+`UnifiedAssetId`, source identity, and alias targets are unchanged.
 
 ## Asset sources
 
@@ -42,12 +46,12 @@ data/
 `READY` / `HOLD` is metadata only. The filesystem is organized by semantic
 object/interface context.
 
-Large UI domains use an additional navigation layer where necessary:
+Large UI domains use additional navigation layers where necessary:
 
-- Trainer assets are grouped by trainer identity/name
-- Pokémon assets are grouped by their exact published human-readable name
-- Item UI assets are grouped by technical item family
-- Scout and Scout-banner assets are grouped by source-derived scout family
+- Trainer assets are grouped by Trainer identity and human-readable variant name.
+- Pokémon assets are grouped by their exact published human-readable name.
+- Item UI assets are grouped by technical item family.
+- Scout and Scout-banner assets are grouped by source-derived scout family.
 
 These navigation folders do not change stable asset identity.
 
@@ -73,17 +77,19 @@ and content hashes are the durable identity layer.
 
 ## Git LFS and bulk downloads
 
-The **19,298 standalone UI canonical assets** are tracked with Git LFS.
-The Item + Atlas payload from the original library remains normal Git content.
+The **19,298** standalone UI canonical assets are tracked with Git LFS.
+The Item + Atlas payload remains normal Git content.
 
 For bulk use, download the release assets instead of cloning individual files:
 
-- `Pokemon-Masters-EX-Asset-Library-v1.1.1-Items-Atlas.zip`
-- `Pokemon-Masters-EX-Asset-Library-v1.1.1-Standalone-UI.zip`
+- `Pokemon-Masters-EX-Asset-Library-v1.1.2-Items-Atlas.zip`
+- `Pokemon-Masters-EX-Asset-Library-v1.1.2-Standalone-UI.zip`
 
 ## Integrity
 
-`SHA256SUMS.txt` covers every public file except the checksum file itself.
+`SHA256SUMS.txt` is the repository checksum manifest for the public payload
+surface. The checksum file itself and repository-control files such as
+`.gitattributes` are intentionally outside its self-checking membership.
 
 The public Git repository is the canonical navigable library; GitHub Releases
 provide versioned bulk-download packages.
