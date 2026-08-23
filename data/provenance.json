@@ -1,6 +1,6 @@
 {
   "Repository": "Pokemon-Masters-EX-Asset-Library",
-  "ReleaseVersion": "v1.1.0",
+  "ReleaseVersion": "v1.1.1",
   "GameDataVersion": "2.71.1",
   "BaselineRelease": "v1.0.0",
   "CanonicalAssets": 27419,
@@ -51,5 +51,22 @@
     "NormalizedPaths": 19,
     "StableIdentityChanged": false,
     "PNGContentChanged": false
+  },
+  "NavigationNormalization": {
+    "ReleaseVersion": "v1.1.1",
+    "Purpose": "Keep every public GitHub directory below the 1,000-entry web-navigation truncation limit using semantic/source-derived grouping folders.",
+    "CanonicalAssetPathsChanged": 14171,
+    "SourceIdentityFinalPathsChanged": 15683,
+    "PNGContentChanged": false,
+    "UnifiedAssetIdentityChanged": false,
+    "AliasTargetChanged": false,
+    "Domains": [
+      "UI/Actor/Trainer",
+      "UI/Actor/Pokemon",
+      "UI/Item",
+      "UI/Scout",
+      "UI/Banner/Scout"
+    ],
+    "PokemonFolderPolicy": "Exact already-published human Pokemon name."
   }
 }
