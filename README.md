@@ -4,30 +4,10 @@ A human-readable asset library for **Pokémon Masters EX**.
 
 ## Current release
 
-- Library version: `v1.1.2`
-- Game data version: `2.71.1`
-- Canonical PNG assets: **27,419**
-- Namespaced aliases: **13,144**
-- Canonical READY assets: **27,266**
-- Canonical HOLD assets: **153**
-- Standalone UI assets tracked with Git LFS: **19,298**
+- Release: [v1.1.3](https://github.com/MaNeRz/Pokemon-Masters-EX-Asset-Library/releases/tag/v1.1.3)
+- Game data: `2.71.1`
 
-### What changed in v1.1.2
-
-`v1.1.2` is a human-readable Trainer naming patch over `v1.1.1`.
-
-- **4,507** canonical Trainer public paths were renamed.
-- All **536** published Trainer variants now have a human-readable Trainer name.
-- **220** variants use exact local `trainer_verbose_name` evidence.
-- **9** additional specialized names use exact local CharaQuest evidence.
-- **307** variants retain their proven base Trainer name.
-- **1,844** standard Trainer emote assets now expose their proven BattleStamp labels:
-  `Nice!`, `Watch out!`, `Let's do this!`, and `Thanks!`.
-- Technical variant tails such as `01`, `02`, `expose`, and `01_expose` remain
-  preserved where their exact in-game semantic label is not proven.
-
-This patch changes **public navigation paths only**. PNG bytes, PNG SHA256,
-`UnifiedAssetId`, source identity, and alias targets are unchanged.
+For version-specific changes, checksums, and bulk downloads, see the linked GitHub Release.
 
 ## Asset sources
 
@@ -82,8 +62,8 @@ The Item + Atlas payload remains normal Git content.
 
 For bulk use, download the release assets instead of cloning individual files:
 
-- `Pokemon-Masters-EX-Asset-Library-v1.1.2-Items-Atlas.zip`
-- `Pokemon-Masters-EX-Asset-Library-v1.1.2-Standalone-UI.zip`
+- `Pokemon-Masters-EX-Asset-Library-v1.1.3-Items-Atlas.zip`
+- `Pokemon-Masters-EX-Asset-Library-v1.1.3-Standalone-UI.zip`
 
 ## Integrity
 
