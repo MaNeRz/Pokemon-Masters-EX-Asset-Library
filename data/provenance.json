@@ -1,19 +1,30 @@
 {
   "Repository": "Pokemon-Masters-EX-Asset-Library",
-  "ReleaseVersion": "v1.0.0",
+  "ReleaseVersion": "v1.1.0",
   "GameDataVersion": "2.71.1",
-  "CanonicalAssets": 8121,
-  "Aliases": 8663,
+  "BaselineRelease": "v1.0.0",
+  "CanonicalAssets": 27419,
+  "Aliases": 13144,
   "Status": {
     "CanonicalAssets": {
-      "READY": 8044,
-      "HOLD": 77
+      "READY": 27266,
+      "HOLD": 153
     },
     "Aliases": {
-      "READY": 6208,
-      "HOLD": 2455
+      "READY": 10534,
+      "HOLD": 2610
     }
   },
+  "Components": {
+    "ITEM": 2074,
+    "ATLAS": 6047,
+    "STANDALONE_UI": 19298
+  },
+  "SourceTypes": [
+    "STANDALONE_ITEM",
+    "ATLAS_SPRITE",
+    "STANDALONE_UI_TEXTURE"
+  ],
   "AssetRoots": [
     "Items",
     "UI"
@@ -21,21 +32,24 @@
   "Metadata": [
     "data/assets.csv",
     "data/aliases.csv",
-    "data/status-summary.csv"
-  ],
-  "SourceTypes": [
-    "STANDALONE_ITEM",
-    "ATLAS_SPRITE"
+    "data/status-summary.csv",
+    "data/standalone-ui-source-identities.csv"
   ],
   "ProductContract": {
+    "StableCanonicalIdentity": "UnifiedAssetId",
+    "StableAliasIdentity": [
+      "AliasNamespace",
+      "AliasId"
+    ],
     "ReadyHoldIsMetadataOnly": true,
-    "CanonicalAssetsAreSHA256Unique": true,
+    "CanonicalPayloadsAreSHAUnique": true,
     "AliasesAreNamespaced": true,
-    "ItemAndAtlasPublicPathsDoNotCollide": true,
-    "ItemAndAtlasCanonicalPayloadsDoNotShareSHA256": true
+    "StandaloneSourceIdentitiesPreserved": true
   },
-  "Author": {
-    "GitHubLogin": "MaNeRz",
-    "GitHubDisplayName": "Mario"
+  "PublicPathNormalization": {
+    "Policy": "When a newly added standalone path differs from an existing tracked directory only by case, preserve the existing tracked directory spelling.",
+    "NormalizedPaths": 19,
+    "StableIdentityChanged": false,
+    "PNGContentChanged": false
   }
 }

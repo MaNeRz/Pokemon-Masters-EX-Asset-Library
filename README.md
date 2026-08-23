@@ -2,16 +2,24 @@
 
 A human-readable asset library for **Pokémon Masters EX**.
 
-This repository organizes standalone item images and atlas-derived UI sprites
-into semantic folders while preserving machine-readable asset identities,
-aliases, status, and SHA256 hashes.
+Release `v1.1.0` expands the original Item + atlas library with
+standalone UI textures while preserving every canonical and alias identity
+published in `v1.0.0`.
 
 ## Release
 
-- Library release: `v1.0.0`
+- Library version: `v1.1.0`
 - Game data version: `2.71.1`
-- Canonical PNG assets: `8,121`
-- Aliases: `8,663`
+- Canonical PNG assets: **27,419**
+- Namespaced aliases: **13,144**
+- Canonical READY assets: **27,266**
+- Canonical HOLD assets: **153**
+
+## Asset sources
+
+- standalone Item images
+- atlas-derived UI sprites
+- standalone UI textures
 
 ## Structure
 
@@ -21,44 +29,31 @@ UI/
 data/
 ```
 
-### `Items/`
+`READY` / `HOLD` is metadata only. The filesystem is organized by semantic
+object/interface context.
 
-Standalone item assets grouped into semantic item categories.
+## Data
 
-### `UI/`
+- `data/assets.csv` — canonical public PNG index
+- `data/aliases.csv` — namespaced aliases to canonical assets
+- `data/status-summary.csv` — READY/HOLD counts
+- `data/standalone-ui-source-identities.csv` — original standalone UI source
+  identities and final representation targets
+- `data/provenance.json` — release/product contract
 
-UI sprites extracted from atlases, normalized for orientation and exact visual
-duplicates, then organized by interface context and visual family.
+## Stable identity
 
-### `data/assets.csv`
+Canonical assets use `UnifiedAssetId`.
 
-Canonical asset index for every public PNG.
+Aliases use the composite identity:
 
-### `data/aliases.csv`
+`AliasNamespace + AliasId`
 
-Namespaced aliases that point to canonical public assets.
-
-Alias namespaces currently include:
-
-- `ITEM_ID`
-- `ATLAS_LOGICAL`
-
-### `data/status-summary.csv`
-
-Summary of `READY` and `HOLD` states.
-
-`READY` / `HOLD` is metadata only; the filesystem is organized semantically.
-
-### `data/provenance.json`
-
-Release-level provenance and product contract.
+The `v1.1.0` expansion does not change the identity or metadata of
+any canonical asset or alias already published in `v1.0.0`.
 
 ## Integrity
 
-`SHA256SUMS.txt` contains a SHA256 entry for every tracked public file except
-the checksum file itself.
+`SHA256SUMS.txt` covers every public file except the checksum file itself.
 
-## Versioning
-
-Repository releases follow normal semantic release numbering beginning at
-`v1.0.0`. The game-data version used to build a release is recorded separately.
+For bulk downloads, use the release assets rather than a full Git LFS clone.
