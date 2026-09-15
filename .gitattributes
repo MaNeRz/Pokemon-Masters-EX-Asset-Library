@@ -51,3 +51,12 @@
 "UI/Gym/Common/image/gym_detail_eff_circle.png" filter=lfs diff=lfs merge=lfs -text
 "UI/Gym/Common/image/gym_gradation.png" filter=lfs diff=lfs merge=lfs -text
 UI/Generated/** filter=lfs diff=lfs merge=lfs -text
+"UI/Battle/image/icon_order_enemy.png" filter=lfs diff=lfs merge=lfs -text
+"UI/Battle/image/icon_order_player.png" filter=lfs diff=lfs merge=lfs -text
+"UI/Battle/image/img_mask_teamskill_l.png" filter=lfs diff=lfs merge=lfs -text
+"UI/Battle/image/img_mask_teamskill_r.png" filter=lfs diff=lfs merge=lfs -text
+"UI/Battle/image/img_move_cost_gradation_r_w.png" filter=lfs diff=lfs merge=lfs -text
+"UI/Battle/image/img_move_cost_gradation_v.png" filter=lfs diff=lfs merge=lfs -text
+"UI/Battle/image/img_move_cost_gradation_w.png" filter=lfs diff=lfs merge=lfs -text
+"UI/SpecialClearReward/image/img_bkgd_champ.png" filter=lfs diff=lfs merge=lfs -text
+"UI/SpecialClearReward/image/img_bkgd_story.png" filter=lfs diff=lfs merge=lfs -text

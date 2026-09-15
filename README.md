@@ -4,7 +4,7 @@ A human-readable asset library for **Pokémon Masters EX**.
 
 ## Current release
 
-- Release: [v1.2.0](https://github.com/MaNeRz/Pokemon-Masters-EX-Asset-Library/releases/tag/v1.2.0)
+- Release: [v1.2.1](https://github.com/MaNeRz/Pokemon-Masters-EX-Asset-Library/releases/tag/v1.2.1)
 - Game data: `2.71.1`
 
 For version-specific changes, checksums, and bulk downloads, see the linked GitHub Release.
@@ -62,14 +62,14 @@ Generated Sync Pair composites use logical IDs derived from Trainer ID + render 
 
 ## Git LFS and bulk downloads
 
-The **19,300** standalone UI canonical assets and **1,264** derived Generated Sync Pair assets are tracked with Git LFS.
+The **19,340** standalone UI canonical assets and **1,264** derived Generated Sync Pair assets are tracked with Git LFS.
 The Item + Atlas payload remains normal Git content.
 
 For bulk use, download the release assets instead of cloning individual files:
 
-- `Pokemon-Masters-EX-Asset-Library-v1.2.0-Items-Atlas.zip`
-- `Pokemon-Masters-EX-Asset-Library-v1.2.0-Standalone-UI.zip`
-- `Pokemon-Masters-EX-Asset-Library-v1.2.0-Generated-Sync-Pair.zip`
+- `Pokemon-Masters-EX-Asset-Library-v1.2.1-Items-Atlas.zip`
+- `Pokemon-Masters-EX-Asset-Library-v1.2.1-Standalone-UI.zip`
+- `Pokemon-Masters-EX-Asset-Library-v1.2.1-Generated-Sync-Pair.zip`
 
 ## Integrity
 

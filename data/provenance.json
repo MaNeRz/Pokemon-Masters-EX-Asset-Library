@@ -1,13 +1,13 @@
 {
   "Repository": "Pokemon-Masters-EX-Asset-Library",
-  "ReleaseVersion": "v1.2.0",
+  "ReleaseVersion": "v1.2.1",
   "GameDataVersion": "2.71.1",
   "BaselineRelease": "v1.0.0",
-  "CanonicalAssets": 28685,
+  "CanonicalAssets": 28725,
   "Aliases": 13144,
   "Status": {
     "CanonicalAssets": {
-      "READY": 28532,
+      "READY": 28572,
       "HOLD": 153
     },
     "Aliases": {
@@ -18,7 +18,7 @@
   "Components": {
     "ITEM": 2074,
     "ATLAS": 6047,
-    "STANDALONE_UI": 19300,
+    "STANDALONE_UI": 19340,
     "GENERATED": 1264
   },
   "SourceTypes": [
@@ -129,6 +129,25 @@
       "R598",
       "R599-FIX1",
       "R600-FIX1"
+    ]
+  },
+  "NativeStandaloneCompletenessPatch": {
+    "ReleaseVersion": "v1.2.1",
+    "GameDataVersion": "2.71.1",
+    "CanonicalAssetsAdded": 40,
+    "Component": "STANDALONE_UI",
+    "SourceType": "STANDALONE_UI_TEXTURE",
+    "ExistingAssetContentChanged": false,
+    "ExistingPublicPathsChanged": false,
+    "AtlasSourceSheetsClassifiedInternalSupportOnly": 20,
+    "AtlasFramesReviewed": 2927,
+    "AtlasFramesCanonical": 2758,
+    "AtlasFramesClosedByReadyAlias": 169,
+    "HoldAssetsAdded": 0,
+    "EvidenceLineage": [
+      "R603-FIX1",
+      "R604",
+      "R605"
     ]
   }
 }
