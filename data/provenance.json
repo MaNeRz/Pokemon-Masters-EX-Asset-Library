@@ -1,13 +1,13 @@
 {
   "Repository": "Pokemon-Masters-EX-Asset-Library",
-  "ReleaseVersion": "v1.1.4",
+  "ReleaseVersion": "v1.2.0",
   "GameDataVersion": "2.71.1",
   "BaselineRelease": "v1.0.0",
-  "CanonicalAssets": 27421,
+  "CanonicalAssets": 28685,
   "Aliases": 13144,
   "Status": {
     "CanonicalAssets": {
-      "READY": 27268,
+      "READY": 28532,
       "HOLD": 153
     },
     "Aliases": {
@@ -18,12 +18,14 @@
   "Components": {
     "ITEM": 2074,
     "ATLAS": 6047,
-    "STANDALONE_UI": 19300
+    "STANDALONE_UI": 19300,
+    "GENERATED": 1264
   },
   "SourceTypes": [
     "STANDALONE_ITEM",
     "ATLAS_SPRITE",
-    "STANDALONE_UI_TEXTURE"
+    "STANDALONE_UI_TEXTURE",
+    "DERIVED_SYNC_PAIR_ICON"
   ],
   "AssetRoots": [
     "Items",
@@ -42,9 +44,10 @@
       "AliasId"
     ],
     "ReadyHoldIsMetadataOnly": true,
-    "CanonicalPayloadsAreSHAUnique": true,
+    "CanonicalPayloadsAreSHAUnique": false,
     "AliasesAreNamespaced": true,
-    "StandaloneSourceIdentitiesPreserved": true
+    "StandaloneSourceIdentitiesPreserved": true,
+    "CanonicalIdentityDoesNotDependOnSHA256Uniqueness": true
   },
   "PublicPathNormalization": {
     "Policy": "When a newly added standalone path differs from an existing tracked directory only by case, preserve the existing tracked directory spelling.",
@@ -100,6 +103,32 @@
       "R584",
       "R585-FIX2",
       "R585-FIX3"
+    ]
+  },
+  "GeneratedSyncPairDomain": {
+    "ReleaseVersion": "v1.2.0",
+    "GameDataVersion": "2.71.1",
+    "Component": "GENERATED",
+    "SourceType": "DERIVED_SYNC_PAIR_ICON",
+    "CanonicalAssetsAdded": 1264,
+    "SyncPairs": 638,
+    "SyncPairPng": 1263,
+    "SharedUnknownPng": 1,
+    "ExCapablePairs": 625,
+    "PublicRoot": "UI/Generated/Sync Pair",
+    "PublicTreePngOnly": true,
+    "PublicManifestPresent": false,
+    "StableIdentityPolicy": "GENERATED::sync-pair/<trainerId>/<mode>.png; shared Unknown uses GENERATED::sync-pair/_shared/unknown.png",
+    "DerivedNotNative": true,
+    "NativeStandaloneSourceIdentityIndexChanged": false,
+    "EvidenceLineage": [
+      "R590-FIX2",
+      "R595",
+      "R596-FIX3",
+      "R597",
+      "R598",
+      "R599-FIX1",
+      "R600-FIX1"
     ]
   }
 }

@@ -50,3 +50,4 @@
 "UI/Cafe/Common/image/academy_cell_line_eff.png" filter=lfs diff=lfs merge=lfs -text
 "UI/Gym/Common/image/gym_detail_eff_circle.png" filter=lfs diff=lfs merge=lfs -text
 "UI/Gym/Common/image/gym_gradation.png" filter=lfs diff=lfs merge=lfs -text
+UI/Generated/** filter=lfs diff=lfs merge=lfs -text
