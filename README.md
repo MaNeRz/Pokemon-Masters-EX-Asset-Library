@@ -4,7 +4,7 @@ A human-readable asset library for **Pokémon Masters EX**.
 
 ## Current release
 
-- Release: [v1.1.3](https://github.com/MaNeRz/Pokemon-Masters-EX-Asset-Library/releases/tag/v1.1.3)
+- Release: [v1.1.4](https://github.com/MaNeRz/Pokemon-Masters-EX-Asset-Library/releases/tag/v1.1.4)
 - Game data: `2.71.1`
 
 For version-specific changes, checksums, and bulk downloads, see the linked GitHub Release.
@@ -57,13 +57,13 @@ and content hashes are the durable identity layer.
 
 ## Git LFS and bulk downloads
 
-The **19,298** standalone UI canonical assets are tracked with Git LFS.
+The **19,300** standalone UI canonical assets are tracked with Git LFS.
 The Item + Atlas payload remains normal Git content.
 
 For bulk use, download the release assets instead of cloning individual files:
 
-- `Pokemon-Masters-EX-Asset-Library-v1.1.3-Items-Atlas.zip`
-- `Pokemon-Masters-EX-Asset-Library-v1.1.3-Standalone-UI.zip`
+- `Pokemon-Masters-EX-Asset-Library-v1.1.4-Items-Atlas.zip`
+- `Pokemon-Masters-EX-Asset-Library-v1.1.4-Standalone-UI.zip`
 
 ## Integrity
 
