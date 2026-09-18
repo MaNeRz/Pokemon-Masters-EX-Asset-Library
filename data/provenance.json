@@ -1,14 +1,14 @@
 {
   "Repository": "Pokemon-Masters-EX-Asset-Library",
-  "ReleaseVersion": "v1.2.1",
-  "GameDataVersion": "2.71.1",
+  "ReleaseVersion": "v1.3.0",
+  "GameDataVersion": "2.72",
   "BaselineRelease": "v1.0.0",
-  "CanonicalAssets": 28725,
+  "CanonicalAssets": 29101,
   "Aliases": 13144,
   "Status": {
     "CanonicalAssets": {
-      "READY": 28572,
-      "HOLD": 153
+      "READY": 28946,
+      "HOLD": 155
     },
     "Aliases": {
       "READY": 10534,
@@ -18,8 +18,8 @@
   "Components": {
     "ITEM": 2074,
     "ATLAS": 6047,
-    "STANDALONE_UI": 19340,
-    "GENERATED": 1264
+    "STANDALONE_UI": 19680,
+    "GENERATED": 1300
   },
   "SourceTypes": [
     "STANDALONE_ITEM",
@@ -148,6 +148,35 @@
       "R603-FIX1",
       "R604",
       "R605"
+    ]
+  },
+  "GameData272ReleasePatch": {
+    "ReleaseVersion": "v1.3.0",
+    "GameDataVersion": "2.72",
+    "CanonicalAssetsAdded": 376,
+    "StandaloneUIAssetsAdded": 340,
+    "GeneratedSyncPairAssetsAdded": 36,
+    "ExistingStandaloneAssetsUpdated": 2,
+    "PublicPathsRenamed": 108,
+    "TrainerPublicPathsRenamed": 100,
+    "GeneratedSyncPairPublicPathsRenamed": 8,
+    "SourceIdentityRowsAdded": 340,
+    "SourceIdentityRowsUpdated": 2,
+    "SyncPairs": 656,
+    "ExCapablePairs": 643,
+    "ExistingImagePixelsRerendered": false,
+    "EvidenceLineage": [
+      "R659",
+      "R661",
+      "R662-FIX2",
+      "R663-G-FIX1",
+      "R663-H",
+      "R666",
+      "R666-FIX1",
+      "R666-FIX2",
+      "R667",
+      "R667-FIX1",
+      "R667-FIX2"
     ]
   }
 }
